@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .Card {
-    @apply w-48 h-64 shadow-md rounded-lg flex-none
+    @apply w-48 h-64 shadow-md rounded-lg flex-none duration-200 ease-in-out hover:translate-y-2 hover:shadow-lg
 }
