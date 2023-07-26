@@ -5,3 +5,7 @@
 .Card {
     @apply w-48 h-64 shadow-md rounded-lg flex-none duration-200 ease-in-out hover:translate-y-2 hover:shadow-lg
 }
+
+.Card-Title{
+    @apply text-3xl font-semibold text-white
+}

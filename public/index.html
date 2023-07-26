@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="font-Montserrat">
     <header>
         <nav></nav>
         <div id="tabBar"></div>
@@ -51,7 +51,15 @@
                 
 
             </div>
-            <div id="featured_rentals"></div>
+            <div class="px-6 h-auto w-full pb-5" id="featured_rentals">
+                <p class="text-3xl text-primary font-semibold pt-6 pb-6">Rentas Destacadas</p>
+                <div class="w-full h-full flex flex-col space-y-6 items-center justify-center">
+                    <div class="w-full h-96 bg-chicago bg-cover p-8 rounded-lg ">
+                        <p class="Card-Title">Chicago</p>
+                        <p class="text-sm text-black">2 habitaciones, baño y cocina</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer></footer>
