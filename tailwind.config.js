@@ -1,12 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./public/index.html", "./src/**/*.{html,js}"],
+  darkMode: 'class',
   theme: {
     colors:{
       "primary": "#CC2D4A",
       "secondary": "#8FA206",
       "tertiary": "#61AEC9",
       "white": "#ffffff",
+      "gray-9":"#111827",
+      "gray-8":"#1f2937",
+      "gray-7":"#374151",
+      "gray-3":"#d1d5db",
+      "gray-5":"#6b7280",
       },
     fontFamily: { 
         Montserrat: ["Montserrat", "sans-serif"],
